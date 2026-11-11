@@ -1393,3 +1393,30 @@ html,body,#root{
     color: inherit;
     display: block;
 }
+
+.shop-now-link {
+    text-decoration: none;
+}
+
+.shop-now-link:hover {
+    text-decoration: none;
+}
+
+.hero .image {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        padding: 50px 70px;
+    }
+
+    .bgname {
+        font-size: 200px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+}
