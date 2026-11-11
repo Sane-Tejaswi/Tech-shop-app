@@ -2234,5 +2234,54 @@ html,body,#root{
 }
 
 
+@media screen and (max-width: 375px) {
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .bgname {
+        font-size: 70px;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 7px;
+    }
+
+    .product-page-card img {
+        height: 125px;
+    }
+
+    .product-page-card h3 {
+        font-size: 12px;
+    }
+
+    .product-page-card p {
+        font-size: 11px;
+    }
+
+    .thumbnail-images button {
+        width: 48px;
+        height: 48px;
+    }
+
+    .main-product-image {
+        min-height: 260px;
+    }
+
+    .main-product-image img {
+        height: 260px;
+    }
+
+    .specification-tabs button {
+        padding: 7px 6px;
+        font-size: 11px;
+    }
+
+    .related-card img {
+        height: 110px;
+    }
+}
 
 
